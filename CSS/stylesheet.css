@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(242, 242, 245),rgb(193, 217, 232));    
+}
+.container{
+    margin:auto;
+    max-width:700px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.container #task{
+   width: 500px;
+   padding: 5px 2px 5px 2px;
+   font-size: large;
+   background-color: transparent;
+   border: none;
+   border-bottom: 1px solid black;
+}
+::placeholder{
+    color: gray;
+}
+
+.container>button{
+    padding:8px 10px 8px 10px;
+
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    padding:0;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+ul li.clicked{
+    text-decoration: black 2px line-through;
+    color: gray;
+}
+ul li{
+    
+    text-align: left;
+    margin-top:5px;
+   
+}
+ul li img{
+    float: right;
+   
+}
